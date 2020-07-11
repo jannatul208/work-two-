@@ -1,0 +1,163 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  padding: 15px 0;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px #0A101A;
+  background-color:#121B2A;
+}
+.wrapper{
+ 
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  /* border: 1px solid red; */ 
+}
+.logo{
+  width: 15%;
+  float: left;
+}
+.logo img{
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+.menu{
+
+  margin-top: 20px;
+  transition: 3s;
+  width:60%;
+  float: right;
+}
+ul {
+
+  font-size: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float:right;
+  overflow: hidden;
+   /* background-color:#06588A; */
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+   background-color:#06588A; 
+}
+/* hover end */
+/* banar start*/
+.banar{
+  padding: 10% 0 2% 0;
+  width:100%;
+  background-image: url(../img/banar1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banar_1{
+   padding: 10% 0 0 0;
+   width: 50%;
+}
+.banar h1{
+ font-size:43px;
+ color: white;
+  margin:0; 
+}
+.banar h2{
+  font-size:43px;
+ color:#0075B9;
+ margin:0; 
+}
+.banar p{
+  font-size: 20px;
+  color: white;
+}
+
+/* banar end */
+/* button star */
+button{
+  font-size: 18px;
+  border-radius: 5px;
+  color:#595959;
+  padding: 10px ;
+  margin-bottom:50px;
+
+  }
+/* button end */
+/* service start */
+.service{
+  padding-top: 60px;
+  padding-bottom: 50px;
+  background-color: #121B2C;
+}
+.single{
+  width: 30%;
+  float: left;
+  /* border:1px solid white; */
+  padding: 15px 10px 25px 21px;
+  border-right:1px solid #1A2430;
+}
+.single:last-child {
+  border-right: none;
+} 
+
+.top{
+  /* overflow: hidden; */
+}
+.t-img{
+  width: 20%;
+  float: left;
+  
+}
+.t-img img{
+  float: left;
+}
+.t-text{
+  width: 70%;
+  margin-top:20px;
+  float: left;
+  }
+
+.h2{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    margin:0 ;
+    padding: 0 0 0 22px;
+
+}
+.t-text h3{
+
+  color: white;
+  color: #0078BF;
+}
+.bottom{
+  /* border: 1px solid red; */
+} 
+.bottom p{
+  padding: 0 30px 10px 10px;
+  font-family: sans-serif;
+  color: white;
+  margin: 10px 0 0 0;
+  font-size:15px;
+  padding-top: 90px;
+  line-height: 20px;
+} 
+/* service end */
+/* about start */
+
+
+/* about end */
