@@ -33,13 +33,16 @@ body{
 }
 ul {
 
-  font-size: 10px;
+  font-size: 15px;
   list-style-type: none;
   margin: 0;
   padding: 0;
   float:right;
   overflow: hidden;
-   /* background-color:#06588A; */
+  /* background-color:#06588A; */
+}
+ul li:last-child a{
+  padding-right: 0;
 }
 
 li {
@@ -48,6 +51,7 @@ li {
 
 li a {
   display:block;
+  
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -55,12 +59,13 @@ li a {
 }
 
 li a:hover {
-   background-color:#06588A; 
-}
+  color:#0176B8;
+  
+  } 
 /* hover end */
 /* banar start*/
 .banar{
-  padding: 10% 0 2% 0;
+  padding: 10% 0 5% 0;
   width:100%;
   background-image: url(../img/banar1.png);
   background-repeat: no-repeat;
@@ -103,7 +108,7 @@ button{
   background-color: #121B2C;
 }
 .single{
-  width: 32%;
+  width: 30%;
   float: left;
   /* border:1px solid white; */
   padding: 15px 10px 25px 0;
@@ -122,6 +127,7 @@ button{
   
 }
 .t-img img{
+  padding: 0 0 0 13px;
   float: left;
 }
 .t-text{
@@ -136,26 +142,30 @@ button{
     font-size: 20px;
     color: white;
     margin:0 ;
-    padding: 0 0 0 22px;
-
+    padding: 0 0 0 30px;
+   
 }
 .t-text h3{
-
+  margin-top: 30px;
   color: white;
   color: #0078BF;
 }
 .am{
   font-size: 15px;
-    padding: 25px 0 0 15px;
+  padding: 25px 0 0 29px;
   float: left;
   color: white;
 
+}
+h2{
+  padding: 10px 0 0 0;
+  float: left; 
 }
 .bottom{
   /* border: 1px solid red; */
 } 
 .bottom p{
-  padding: 0 30px 10px 10px;
+  padding: 0 30px 10px 30px;
   font-family: sans-serif;
   color: white;
   margin: 10px 0 0 0;
@@ -165,6 +175,134 @@ button{
 } 
 /* service end */
 /* about start */
+.about{
+  color:white;
+  background-color: #040811;
+  margin-bottom: 0;
+  padding: 0;
+  float: left;
+  width: 100%;
+}
+h4{
+  margin-bottom: 0;
+  float: left;
+  font-size: 20px;
+}
+ .xi{
+  font-size: 17px;
+  line-height:20px;
+  width: 30%;
 
+  padding: 10px 20px 0px 20px;
+  margin:0;
+ float: left;
+}
+ .xi p{
+  padding: 0;
+  line-height: 20px;
+  overflow: hidden;
+   float: left;  
+ /*  margin-bottom: 0; */
+}
 
-/* about end */
+.not{
+  font-size: 20px;
+  float: left;
+}
+.not p{
+padding: 0 0 25px 0;
+margin:0px;
+} 
+}
+.goto{
+  padding: 60px 0 0 0;
+  width: 20%;
+  float: left;
+  }
+.data img{
+  padding:30px 0 0 0;
+float: left;
+}
+/* .no{
+   margin-bottom: 0;
+ padding: 0 ; 
+font-size: 25px;
+float: left;
+ width: 20%;
+
+}
+.no h6{
+  color:#0078BF;
+  margin-bottom: 0;
+}
+
+ 
+.yes img{
+  float: left;
+}  */
+.footer{
+   /* float: left;  */
+  background-color:#121B2C;
+  
+  width: 100%;
+}
+.bar{
+  padding: 0 0 0 0;
+ margin-top: 20px;
+ /*  transition: 3s; */
+  width:62%;
+  float: left;
+}
+ul {
+
+  font-size: 8px;
+  list-style-type: none;
+  margin: 0;
+  
+  float:right;  
+  overflow: hidden; 
+  /*  background-color:#06588A; */
+}
+/* ul li:first-child a{
+  padding-left: 0;
+} */
+/*  ul li:last-child a{
+ padding-right: 0;
+} */
+
+li {
+   float:left; 
+}
+
+li a {
+  display:block;
+  
+  color: white;
+   /* text-align:right; */
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color:#0176B8;
+  
+  } 
+  .bar p{
+    padding: 0 0 0 17px;
+  }
+  
+  .water{
+    float: left;
+    width: 10%;
+  }
+  .water img{
+    padding:20px 0px 0 40px;
+ } 
+  .mark{
+    width: 10%;
+   float: left;
+  
+ }
+ .mark img{
+   padding: 20px 0 0 120px;
+ } 
